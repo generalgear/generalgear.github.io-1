@@ -1,7 +1,7 @@
     body {
-        background-color: #000000 ; 
+        background-color: #fff ; 
         font-family: Helvetica; 
-        color:rgb(18, 31, 91);
+        color:rgb(0, 0, 0);
         };
     p { 
         margin-left: 3em
@@ -10,7 +10,7 @@
            text-align: center ; 
            font-size: 3em;}
     
-    h1,p{ container: 56px};
+    /* h1,p{ container: 56px}; */
     img {   align:center};
 
     h2 {
@@ -48,6 +48,9 @@
         margin-left: 5%;
     }
 
+ 
+
+
     .lsm{
         display: inline;
         margin-left: 0;
@@ -60,24 +63,22 @@
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 3em;
         width: 100% ;
     }
 
     #price{
         margin: auto;
         width: 50%;
-        /* border: 3px solid green; */
-        padding: 10px;
+        font-weight: 200;
+        padding: 1.5em;
         text-align: center;
     }
 
-    #copywrite{
-        display: auto;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2%;
-        /* width: 50%; */
-        
+    #copywright{
+        font-weight: 200;
+        /* margin: 1em; */
+        display: inline-block;
     }
 
     #logo{
@@ -90,11 +91,11 @@
         font-size:60%;
     }
 
-    #darkmode{
+    /* #darkmode{
         scale: 10%;
-    }
+    } */
 
-    .button {
+    /* .button {
         background-color: #04AA6D;
         border: none;
         color: white;
@@ -105,7 +106,7 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
-      }
+      } */
 
     #sss{
         width: 100%;
